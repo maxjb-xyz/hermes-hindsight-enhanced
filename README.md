@@ -76,12 +76,12 @@ Then run `hindsight-api` with that environment, for example as a systemd user se
 
 ### 2. Install the plugin
 
-**From Hermes Desktop:** Capabilities → Plugins → **Install from Git**, enter `https://github.com/maxjb-xyz/hermes-atlas-memory`, and pick the profile. Repeat for each profile.
+**From Hermes Desktop:** Capabilities → Plugins → **Install from Git**, enter `https://github.com/maxjb-xyz/hermes-hindsight-enhanced`, and pick the profile. Repeat for each profile.
 
 **From a terminal:** clone once and link it into every profile:
 
 ```bash
-git clone https://github.com/maxjb-xyz/hermes-atlas-memory ~/atlas-memory
+git clone https://github.com/maxjb-xyz/hermes-hindsight-enhanced ~/atlas-memory
 for d in ~/.hermes ~/.hermes/profiles/*; do mkdir -p "$d/plugins" && ln -sfn ~/atlas-memory "$d/plugins/atlas-memory"; done
 hermes gateway restart
 ```
