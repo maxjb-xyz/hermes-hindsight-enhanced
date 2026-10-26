@@ -1,0 +1,7 @@
+name: icloud-calendar
+version: 0.1.0
+description: "iCloud Calendar tools (CalDAV) for one Hermes profile: deny-by-default calendar allowlist, per-calendar read-only, deletes off by default."
+kind: standalone
+requires_env:
+  - ICLOUD_USERNAME
+  - ICLOUD_APP_PASSWORD

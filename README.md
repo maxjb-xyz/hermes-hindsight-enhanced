@@ -134,9 +134,10 @@ python3 tests/run_without_pytest.py   # or: pytest tests/
 
 Tests run against stubs of the Hermes interfaces and a fake Hindsight HTTP server.
 
-## Companion plugin
+## Companion plugins
 
-[`extras/kanban-board-pin`](extras/kanban-board-pin) pins each profile's Kanban tools to its own board(s), since Hermes's current-board pointer is install-wide.
+- [`extras/kanban-board-pin`](extras/kanban-board-pin) pins each profile's Kanban tools to its own board(s), since Hermes's current-board pointer is install-wide.
+- [`extras/icloud-calendar`](extras/icloud-calendar) gives one profile iCloud Calendar tools with a deny-by-default calendar allowlist and per-calendar read-only.
 
 ## License
 
