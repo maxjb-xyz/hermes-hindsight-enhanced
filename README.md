@@ -134,6 +134,10 @@ python3 tests/run_without_pytest.py   # or: pytest tests/
 
 Tests run against stubs of the Hermes interfaces and a fake Hindsight HTTP server.
 
+## Companion plugin
+
+[`extras/kanban-board-pin`](extras/kanban-board-pin) pins each profile's Kanban tools to its own board(s), since Hermes's current-board pointer is install-wide.
+
 ## License
 
 MIT

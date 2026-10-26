@@ -1,0 +1,5 @@
+name: kanban-board-pin
+version: 0.1.0
+description: "Pins each Hermes profile's Kanban tools to its own board(s): a default board when none is given, and refusal of boards outside its allowlist."
+kind: standalone
+requires_env: []
