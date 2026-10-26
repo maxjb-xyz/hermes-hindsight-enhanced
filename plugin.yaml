@@ -1,0 +1,7 @@
+name: atlas-memory
+version: 0.1.0
+description: "Atlas memory: private + shared section Hindsight banks per Bot, multi-bank recall, credential redaction."
+kind: exclusive
+# Stdlib only (talks to the Hindsight REST API directly), so there are no Python
+# dependencies for Hermes' package manager to resolve.
+requires_env: []
